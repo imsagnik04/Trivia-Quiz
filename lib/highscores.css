@@ -1,0 +1,56 @@
+#highScoresList {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 4rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.high_score {
+    margin-bottom: 0.5rem;
+    border-bottom: 0.1rem solid white;
+    background-color: #56a5eb;
+    
+}
+
+.tRow:hover   {
+    transform: scale(1.025);
+}
+
+.tData   {
+    border: 0.1rem transparent ;
+    padding: 0.8rem;
+    font-size: 2rem;
+    text-align: center;
+    color: white;
+    
+}
+
+.tRow:nth-child(even)  {
+    background-color: #acd6fc;
+}
+
+.tRow:nth-child(odd)  {
+    background-color: #79bcf7;
+}
+.tRow:last-of-type td:first-of-type   {
+    border-radius: 0 0 0 20px;
+}
+.tRow:last-of-type td:last-of-type   {
+    border-radius: 0 0 20px 0;
+}
+.brd1   {
+    font-size: 4rem;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    border-radius: 20px 0 0 0;
+}
+
+.brd2   {
+    font-size: 4rem;
+    padding: 0.8rem;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 0;
+}
